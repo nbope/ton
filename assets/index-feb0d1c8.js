@@ -887,4 +887,4 @@ PERFORMANCE OF THIS SOFTWARE.
 `,O$=Xa.div`
   max-width: 900px;
   margin: 0 auto;
-`;function L$(){const{network:e}=u0();return an(R$,{children:an(O$,{children:fs(VA,{children:[fs(hc,{children:[an(Eq,{}),an(QA,{children:e?e===Zs.MAINNET?"mainnet":"testnet":"N/A"})]}),an(P$,{})]})})})}const N$="https://raw.githubusercontent.com/nbope/ton/main/public/tonconnect-manifest.json",D$=new UC({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});ty.createRoot(document.getElementById("root")).render(an(Aq,{manifestUrl:N$,children:an(WE,{client:D$,children:an(L$,{})})}));
+`;function L$(){const{network:e}=u0();return an(R$,{children:an(O$,{children:fs(VA,{children:[fs(hc,{children:[an(Eq,{}),an(QA,{children:e?e===Zs.MAINNET?"mainnet":"testnet":"N/A"})]}),an(P$,{})]})})})}const N$="https://nbope.github.io/ton/tonconnect-manifest.json",D$=new UC({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});ty.createRoot(document.getElementById("root")).render(an(Aq,{manifestUrl:N$,children:an(WE,{client:D$,children:an(L$,{})})}));
